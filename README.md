@@ -36,6 +36,34 @@ Además, el programa realiza **comprobaciones de referencia** para verificar la 
 - **Object Pool** → Clase `SensorPool`
 
 ---
+## ▶️ Cómo ejecutar el programa
+
+### 🖥️ Requisitos previos
+- Tener instalado **.NET SDK 8.0** o superior  
+  👉 Puedes descargarlo desde: [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download)
+- Tener un entorno compatible, como:
+  - **Visual Studio 2022**
+  - **Visual Studio Code** con la extensión de C#
+
+---
+
+### 🚀 Ejecución desde Visual Studio 2022
+1. Abre la solución:  
+   `ExamenUnidad2Patrones_DanielAlejandroGonzalezGutierrez.sln`
+2. Selecciona el menú **Depurar → Iniciar sin depurar** (`Ctrl + F5`).
+3. El programa se ejecutará en la consola mostrando:
+   - Lecturas simuladas de sensores ambientales.
+   - Mensajes de liberación de sensores.
+   - Comprobaciones de reutilización y Singleton.
+
+---
+
+### ⚙️ Ejecución desde la terminal (.NET CLI)
+1. Abre una terminal en la carpeta raíz del proyecto.  
+2. Ejecuta los siguientes comandos:
+   ```bash
+   dotnet build
+   dotnet run
 
 ## 💡 Ejemplo de Ejecución
 ```
